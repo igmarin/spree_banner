@@ -1,0 +1,35 @@
+es-MX:
+  images_only: "formatos aceptados JPG, JPEG, PNG o GIF"
+  banner_box_settings: Propiedades del Banner
+  add_new_banner_style: "Agregar nuevo estilo al Banner"
+  banner_box_settings_warning: "Necesitas regenrar el thumbnails si tu actualizas el tamaño a utilizar. Usa rake paperclip:refresh:thumbnails CLASS=Spree::Banner para realizarlo."
+  banner_settings_description: "Descripción de las propiedades del Banner"
+  banner_settings_updated: "Propiedades del Banner actualizadas exitosamente."
+  banner_default_style: "Banner Default Path"
+  banner_default_url: "Banner Default URL"
+  banner_path: "Ruta del Banner"
+  banner_styles: "Paperclip estilos del Banner"
+  banner_url: "Banner URL"
+  back_to_banner_boxes_list: "Regresar a la Lista de Banners"
+  new_banner_box: "Nuevo Banner"
+  listing_banner_boxes: "Lista de Banners"
+  enabled: Habilitado?
+  url: Link url
+  attachment: Archivo
+  category: "Categoría"
+  banner_boxes: Banners
+  banner_box: Banner
+  notice_messages:
+    banner_box_cloned: "Banner ha sido clonado"
+    banner_box_not_cloned: "Banner no pudo ser clonado"
+  activerecord:
+    models:
+      banner_box:
+        one: Banner
+        other: Banners
+    attributes:
+      banner_box:
+        category: "Categoría"
+        updated_at: Actualizado el
+        created_at: Creado el
+        enabled: Habilitado?
